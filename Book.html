@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>J-Co-WIN-Vaccines</title>
+    <link rel="stylesheet" type="text/css" href="Book.css">
+    <script src="Book.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+</head>
+<body>
+
+    <img src="covid19logo.jpg" class="cov-logo" width="100" height="100">
+    <ul class="MENUS">
+        <li><img src="unknown.jpg" width="40" height="40"></li>
+        <a href="#"><li>About Us</li></a>
+        <a href="signup.html"><li>Register</li></a>
+        <a href="homepage.html"><li>Home</li></a>            
+        
+    </ul>
+    <br><br>
+    <br>
+    <hr width=windowWidth id="horizontal">
+    <br>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBjIyo9SypQZFs-t0L50ZsbvomSd_V8m8I",
+    authDomain: "statedb-517c9.firebaseapp.com",
+    projectId: "statedb-517c9",
+    storageBucket: "statedb-517c9.appspot.com",
+    messagingSenderId: "560419925472",
+    appId: "1:560419925472:web:d084b76a2334ff70570f85"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <h1>Book Your Vaccine </h1>
+        <br>
+       <div class="box">
+            <b>Enter Your State from the Given List</b>
+            <br><br>
+            <div class="search">
+                <select name="State" type="1" id="state">
+                    <option>Andhra Pradesh</option>
+                    <option>Chattisgarh</option>
+                    <option>Chennai</option>
+                    <option>Delhi</option>
+                    <option>Gujarat</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra</option>
+                    <option>Nagaland</option>
+                    <option>Orissa</option>
+                    <option>Rajasthan</option>
+                    <option>Tamil Nadu</option>
+                    <option>Telangana</option>
+
+                    <option>West Bengal</option>
+                </select>
+                <br><br>
+                <input type="button" class="book1" value="Book Slot">
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+<iframe class = "video" width="560" height="315" src="https://www.youtube.com/embed/i0ZabxXmH4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
